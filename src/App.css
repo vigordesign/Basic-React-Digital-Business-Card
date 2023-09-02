@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+body {
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
+}
+
+.mainContent {
+  width: 317px;
+  /* height: 780px; */
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.about {
+  text-align: left;
+  margin: 36px;
+}
+
+.about p {
+  font-size: 10.24px;
+  margin-block-start: 5px;
+}
+
+.footer {
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+}
+
+/*** IMAGES & BUTTONS ***/
+.headShot {
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.emailBtn {
+  background-color: #fff;
+  color: #374151;
+}
+
+.linkedInBtn {
+  background-color: #5093E2;
+  color:#fff;
+  margin-left: 17px;
+  display: flex;
+}
+
+.emailIcon {
+  margin-right: 8px;
+}
+
+.linkenInIcon {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.buttons button {
+  font-size: 14px;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+.icon {
+  width: 25px;
+  margin: 20px 10px 20px 10px;
+  align-items: center;
+}
+
+
+/*** HEADERS ***/
+
+h1 {
+  margin-top: 21px;
+  margin-block-end: 0px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-block-end: 0px;
+}
+
+h3 {
+  font-size: 12.8px;
+  color: #F3BF99;
+  margin-block-start:0px ;
+  margin-block-end: 0px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 10.24px;
+  color: #F5F5F5;
+  margin-block-start:8.81px;
+  font-weight: 300;
+}
